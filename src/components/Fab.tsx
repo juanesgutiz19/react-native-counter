@@ -8,8 +8,6 @@ interface Props {
     onPress: () => void;
 }
 
-
-
 export const Fab = ( { title, onPress, position = 'br' } : Props ) => {
     return(
         <TouchableOpacity
@@ -25,7 +23,6 @@ export const Fab = ( { title, onPress, position = 'br' } : Props ) => {
             </TouchableOpacity>
     )
 }
-
 
 
 const styles = StyleSheet.create({
